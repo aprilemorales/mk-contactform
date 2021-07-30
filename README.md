@@ -6,67 +6,29 @@ This is the repo where the MK User Interface Engineer Challenge code submission 
 
 ## AWS link to contact form site hosted in an S3 bucket
 
-[MK Contact Form](https://mk-contactform.s3.us-west-1.amazonaws.com/index.html)
+[MK Contact Form: https://mk-contactform.s3.us-west-1.amazonaws.com/index.html](https://mk-contactform.s3.us-west-1.amazonaws.com/index.html)
 
-### `yarn start`
+### Notes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Completed building the contact form with validation using React and Material UI. I used Formik and Yup to help with React form handling, validation and validation messaging. The contact form site / React app is up and hosted in AWS S3 bucket (can be viewed in link provided above). I also created an API Gateway that triggers a Lambda function and a table in DynamoDB.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+S3 Bucket in AWS:
+![AWS S3 Bucket](./images/aws-s3-bucket.png "AWS S3 Bucket")
 
-### `yarn test`
+Lambda Function in AWS:
+![Lambda Function](./images/aws-lambda-function.png "Lambda Function")
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+API Gateway POST Method:
+![AWS API Gateway Post Method](./images/aws-api-gateway-post-method.png "AWS API Gateway Post Method")
 
-### `yarn build`
+DynamoDB Table in AWS:
+![AWS DynamoDB Table](./images/aws-dynamodb-table.png "AWS DynamoDB Table")
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I was not able to get the form submission to update the DynamoDB table or email using AWS SES. First I worked through a CORS error by updating the Lambda function POST method to enable CORS. I also corrected errors in my async / fetch function syntax. However, I wasn't able to find a solution in my research to an error regarding invalid paramater values.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Error:
+![Console Error](./images/console-error.png "Console Error")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Experience Summary
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall this project / challenge was a learning experience. I had fun walking through and using new tools. The only thing I was familiar with was React. This is the first time using Material UI, AWS S3, Lambda, API Gateway, DynamoDB, IAM and even looking into SES functionality. I will continue to work on my skills specifically different methods (POST, GET, etc) in which I need to be better at. As well as my JavaScript, React and full stack development. Thank you!
