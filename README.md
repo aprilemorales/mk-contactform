@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Creating Contact Form AKA MK Contact Form
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+This is the repo where the MK User Interface Engineer Challenge code submission from April Morales for the project to build a contact form can be found.
 
-In the project directory, you can run:
+## AWS link to contact form site hosted in an S3 bucket
+
+[MK Contact Form](https://mk-contactform.s3.us-west-1.amazonaws.com/index.html)
 
 ### `yarn start`
 
