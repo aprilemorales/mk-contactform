@@ -1,8 +1,8 @@
 # MK User Interface Engineer Interview Challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 This is the repo where the MK User Interface Engineer Challenge code submission from April Morales for the project to build a contact form can be found.
+
+I have left comments in my code to help give a quick explaination of what was being done / built.
 
 ## AWS link to contact form site hosted in an S3 bucket
 
@@ -31,4 +31,4 @@ Error:
 
 ### Experience Summary
 
-Overall this project / challenge was a learning experience. I had fun walking through and using new tools. The only thing I was familiar with was React. This is the first time using Material UI, AWS S3, Lambda, API Gateway, DynamoDB, IAM and even looking into SES functionality. I will continue to work on my skills specifically different methods (POST, GET, etc) in which I need to get better at. As well as my JavaScript, React and full stack development skills as a whole. Thank you for your time and consideration.
+Overall this project / challenge was a learning experience. I had fun walking through and using new tools. The only thing I was familiar with was React. This is my first time using Material UI, AWS S3, Lambda, API Gateway, DynamoDB, IAM and even looking into SES functionality. I will continue to work on my skills specifically different methods (POST, GET, etc.). Which is an area I need to improve in. As well as work on my JavaScript, React and full stack development skills as a whole. If you made it in reading down this far thank you for your time and consideration.
