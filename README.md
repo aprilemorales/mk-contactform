@@ -24,11 +24,11 @@ API Gateway POST Method:
 DynamoDB Table in AWS:
 ![AWS DynamoDB Table](./images/aws-dynamodb-table.png "AWS DynamoDB Table")
 
-I was not able to get the form submission to update the DynamoDB table or email using AWS SES. First I worked through a CORS error by updating the Lambda function POST method to enable CORS. I also corrected errors in my async / fetch function syntax. However, I wasn't able to find a solution in my research to an error regarding invalid paramater values.
+I was not able to get the form submission to update the DynamoDB table or email using AWS SES. First I worked through a CORS error. I fixed this by updating the Lambda function POST method to enable CORS. I also corrected errors in my async / fetch function syntax. However, I wasn't able to find a solution in my research to an error regarding invalid paramater values. This was where I unfortunately hit a wall. Normally I would continue to work through it but for the sake of time regarding this submission I will stop here.
 
 Error:
 ![Console Error](./images/console-error.png "Console Error")
 
 ### Experience Summary
 
-Overall this project / challenge was a learning experience. I had fun walking through and using new tools. The only thing I was familiar with was React. This is the first time using Material UI, AWS S3, Lambda, API Gateway, DynamoDB, IAM and even looking into SES functionality. I will continue to work on my skills specifically different methods (POST, GET, etc) in which I need to be better at. As well as my JavaScript, React and full stack development. Thank you!
+Overall this project / challenge was a learning experience. I had fun walking through and using new tools. The only thing I was familiar with was React. This is the first time using Material UI, AWS S3, Lambda, API Gateway, DynamoDB, IAM and even looking into SES functionality. I will continue to work on my skills specifically different methods (POST, GET, etc) in which I need to get better at. As well as my JavaScript, React and full stack development skills as a whole. Thank you for your time and consideration.
