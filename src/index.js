@@ -1,4 +1,4 @@
-// Necessary React imports and creat-react-app structure
+// Necessary React imports and base of creat-react-app structure
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

@@ -4,7 +4,7 @@ import { useFormik } from 'formik';
 import * as yup from 'yup';
 // Use styles from Material UI
 import { makeStyles } from '@material-ui/core/styles';
-// Use TextField and Button componets from Material UI
+// Use TextField and Button components from Material UI
 import { TextField, Button } from '@material-ui/core';
 
 // Form styles accessing Material UI theme presets
@@ -22,7 +22,6 @@ const formStyles = makeStyles((theme) => ({
 // Form and Validation function
 // Handles structure, validation, displaying and submission
 function FormValidation() {
-
     // To use styles for form above
     const formClass = formStyles();
 

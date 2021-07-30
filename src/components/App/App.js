@@ -2,12 +2,12 @@
 import { makeStyles } from '@material-ui/core/styles';
 // Accessing send icon (in avatar) from Material UI icons
 import SendIcon from '@material-ui/icons/Send';
-// Accessing Container, Typography and Avatar componets from Material UI
+// Accessing Container, Typography and Avatar components from Material UI
 import { Container, Typography, Avatar } from '@material-ui/core';
 // Accessing FormValidation component to add in form / validation to App 
 import FormValidation from '../FormValidation/FormValidation';
 
-// Form styles accessing Material UI theme presets
+// App styles accessing Material UI theme presets
 const useStyles = makeStyles((theme) => ({
   container: {
     marginTop: theme.spacing(8),
@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
 
 // Basic structure of app
 function App() {
-  // To use styles for form above
+  // To use styles for from above
   const appClass = useStyles();
 
   // Returning container, avatar, typography and form structure components
